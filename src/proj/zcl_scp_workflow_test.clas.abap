@@ -115,7 +115,7 @@ class zcl_scp_workflow_test implementation.
                                         iv_definition_id = 'approveproduct'
                                         iv_context = '{ "productDesc": "' && ls_products-productdesc && '", ' &&
                                                      '"productId": "' && ls_products-productid  && '", ' &&
-                                                     '"approverUserId": "I816013", ' &&
+                                                     '"approverUserId": "<valid_user_id>", ' &&
                                                      '"approvalStatus": "", ' &&
                                                      '"approvalStatusUpdatedBy": "", ' &&
                                                      '"approvalStatusUpdatedAt": "", ' &&
